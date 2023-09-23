@@ -1,0 +1,15 @@
+[project]
+name = "nerf"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Tiago de Freitas Pereira <tiago.defreitaspereira@ams-osram.com>"]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tasks]
+
+[dependencies]
+python = "==3.12"
+pip = ">=24.3.1,<24.4"
+ipdb = ">=0.13.13,<0.14"
+black = ">=24.10.0,<24.11"
