@@ -145,9 +145,11 @@ Follow below the result of using the positional encoding for the first 4 epochs 
 
 and the result of the training without the positional encoding for the first 4 epochs and the outcome of the training until 15 epochs.
 
-<img src="images/nerf_withOUT_pos_enc.png" alt="NeRF Position Encoding 4 epochs" style="width:50%;">
-![image](images/nerf_withOUT_pos_enc.png)
+<img src="images/nerf_withOUT_pos_enc.png" alt="NeRF NO Position Encoding 4 epochs" style="width:50%;">
+<img src="images/nerf_withOUT_pos_enc_15.png" alt="NeRF NO Position Encoding 4 epochs" style="width:50%;">
 
+Bah, honestly, I don't see much difference between the two models. The one with positional encodin converged faster, but the final result is the same.
+Maybe I need to take a dataset with more complex shapes to see the difference between the two models.
 
 ## Part 5: Rendering the triangle mesh
 
